@@ -1,11 +1,11 @@
 {
   "name": "ipac",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "生成根据 IP 自动选择代理的 PAC 文件",
   "main": "index.js",
   "bin": {
-    "ipac-pac": "dist/bin/pac",
-    "ipac-tpl": "dist/bin/tpl"
+    "ipac-pac": "dist/bin/pac.js",
+    "ipac-tpl": "dist/bin/tpl.js"
   },
   "author": "idy0013@gmail.com",
   "license": "MIT",
