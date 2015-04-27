@@ -1,0 +1,21 @@
+{
+  "name": "ipac",
+  "version": "1.0.0",
+  "description": "生成根据 IP 自动选择代理的 PAC 文件",
+  "main": "index.js",
+  "bin": {
+    "ipac-pac": "dist/bin/pac",
+    "ipac-tpl": "dist/bin/tpl"
+  },
+  "author": "idy0013@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-coffee": "^2.3.1",
+    "gulp-header": "^1.2.2",
+    "gulp-plumber": "^1.0.0"
+  },
+  "dependencies": {
+    "yargs": "^3.8.0"
+  }
+}
