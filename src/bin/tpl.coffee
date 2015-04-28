@@ -20,11 +20,11 @@ class TplCli
       ipcnt = parseInt vals[4]
       console.error "Parse ip ipcnt error #{ln}" if isNaN ipcnt
 
-      ipend = ipstart + ipcnt - 1
-      if iplast + 1 < ipstart
+      ipnext = ipstart + ipcnt
+      if iplast < ipstart
         ipranges.push iplast
         ipranges.push ipstart
-      ipend
+      ipnext
       
     ), 0
     ipranges.push iplast

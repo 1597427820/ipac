@@ -5,7 +5,7 @@ global.DEFAULT_TPL = '''
   var cnIps = [{{cn_ip_ranges}}];
   var bases = [16777216,65536,256,1];
   function ip2int(ip) {
-    return ip.split(/\\./g).reduce(function(v, seg, idx) {
+    return ip.split('.').reduce(function(v, seg, idx) {
       return v + parseInt(seg) * bases[idx];
     }, 0);
   }
