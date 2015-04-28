@@ -1,6 +1,6 @@
 {
   "name": "ipac",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "生成根据 IP 自动选择代理的 PAC 文件",
   "main": "index.js",
   "bin": {
